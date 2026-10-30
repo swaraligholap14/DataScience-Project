@@ -1,9 +1,8 @@
-
-# Program to reverse a string
+# Program to check palindrome string
 
 text = input("Enter a string: ")
 
-reverse = text[::-1]
-
-print("Original String:", text)
-print("Reversed String:", reverse)
+if text == text[::-1]:
+    print("Palindrome")
+else:
+    print("Not a Palindrome")
