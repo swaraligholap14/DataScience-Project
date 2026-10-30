@@ -1,9 +1,10 @@
 
-# Program to print multiplication table
 
-num = int(input("Enter any number: "))
+# Program to check whether a number is even or odd
 
-print("Multiplication Table of", num)
+num = int(input("Enter a number: "))
 
-for i in range(1, 11):
-    print(num, "x", i, "=", num * i)
+if num % 2 == 0:
+    print(num, "is an Even number")
+else:
+    print(num, "is an Odd number")
