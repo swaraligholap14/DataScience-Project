@@ -1,9 +1,11 @@
 
-# Program to reverse a string
+# Check palindrome string
 
-text = input("Enter a string: ")
+string = input("Enter a string: ")
 
-reverse = text[::-1]
+reverse = string[::-1]
 
-print("Original String:", text)
-print("Reversed String:", reverse)
+if string.lower() == reverse.lower():
+    print("Given string is Palindrome")
+else:
+    print("Given string is Not Palindrome")

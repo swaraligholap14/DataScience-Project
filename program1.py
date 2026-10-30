@@ -1,10 +1,6 @@
 
 
-# Program to check whether a number is even or odd
+# Modified program to print squares from 1 to 10
 
-num = int(input("Enter a number: "))
-
-if num % 2 == 0:
-    print(num, "is an Even number")
-else:
-    print(num, "is an Odd number")
+for i in range(1, 11):
+    print(i, "raised to power 2 is", i**2)
