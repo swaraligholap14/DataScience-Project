@@ -1,8 +1,8 @@
-# Program to check palindrome string
+# Program to check palindrome
 
 text = input("Enter a string: ")
 
-if text == text[::-1]:
+if text.lower() == text[::-1].lower():
     print("Palindrome")
 else:
     print("Not a Palindrome")
