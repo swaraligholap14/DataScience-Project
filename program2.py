@@ -1,11 +1,8 @@
+# Program to check palindrome
 
-# Check palindrome string
+text = input("Enter a string: ")
 
-string = input("Enter a string: ")
-
-reverse = string[::-1]
-
-if string.lower() == reverse.lower():
-    print("Given string is Palindrome")
+if text.lower() == text[::-1].lower():
+    print("Palindrome")
 else:
-    print("Given string is Not Palindrome")
+    print("Not a Palindrome")
